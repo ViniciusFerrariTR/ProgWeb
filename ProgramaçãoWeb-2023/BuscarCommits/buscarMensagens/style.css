@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h3{
+    font-size: 15px;
+}
+
+.dados_estilo{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid #c0c0c0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000000;
+    background-color: #a70000;
+}
+
+form{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid #c0c0c0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000000;
+    background-color: #a70000;
+    color: white;
+
+}
+
+form img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.input {
+    max-width: 200%;
+    width: 200%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 0;
+}
+
+.input_dt {
+    box-shadow: #af0000;
+    max-width: 100%;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border: 0;
+}
+
+.input_submit{
+    margin-right: 50px;
+    background-color: #af0000;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+
+}
+.input_submit:hover {
+    background-color: #870000;
+    
+}
+
+.label {
+    color: white;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.separacao {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.coluna {
+    display: block;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.colunas {
+    margin: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.coluna_pequena {
+    flex: none;
+    width: 20%;
+}

@@ -1,0 +1,22 @@
+.header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #757575;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo img {
+    height: 150px;
+}
+
+.header-logo h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-left: 15px;
+}

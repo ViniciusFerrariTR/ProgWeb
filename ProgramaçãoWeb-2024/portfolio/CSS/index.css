@@ -1,0 +1,461 @@
+body {
+    position: relative;
+    border: none;
+    margin: 0;
+}
+
+
+
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.barra-botoes {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+}
+
+#hover-botoes {
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    height: 20px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#hover-botoes:hover {
+    background-color: rgb(121, 121, 121);
+}
+
+.botao-nome {
+    border: 1px solid #fff;
+    border-radius: 18px;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 22px;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.botoes-navegacao {
+    width: 350px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.icone-logo {
+    height: 70px;
+}
+
+img {
+    justify-content: center;
+}
+
+.menu_icones_cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #000;
+}
+
+.logo_imagem {
+    width: 500px;
+}
+
+.icones_direita {
+    margin-right: 20px;
+    font-size: 22px;
+    display: flex;
+    width: 368px;
+    position: relative;
+    justify-content: space-evenly;
+    color: #fff;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nome_cabecalho {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 22px;
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+.caixa_inicio {
+    display: block;
+    background-color: #000;
+}
+
+.logo_central {
+    height: 100px;
+    margin-left: 40px;
+}
+
+.icone {
+    margin: 5px;
+    display: flex;
+    height: 45px;
+    width: 150px;
+    font-size: 18px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    border-radius: 3px;
+}
+
+.icone:hover {
+    background-color: #0044ff;
+}
+
+.caixa_escrita_inicio {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    display: flex;
+    
+}
+
+.caixa_imagem_inicio{
+    width: 1000px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.imagem_caixa_escrita_inicio {
+    padding-top: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+.linha_cabecalho {
+    background-color: #444444;
+    height: 0.5px;
+    width: 94%;
+    margin-left: 3%;
+}
+
+.titulo_inicio {
+    padding-top: 100px;
+    padding-left: 60px;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+    font-weight: bold;
+    font-size: 48px;
+    color: #fff;
+    width: 740px;
+}
+
+
+
+.descricao_inicio {
+    color: #a8a8a8;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+    width: 700px;
+    padding-left: 60px;
+    font-weight: initial;
+}
+
+.botao_descricao_inicio {
+    width: 160px;
+    border: 0px solid #0044ff;
+    background-color: #0044ff;
+    height: 50px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+    font-size: 16px;
+}
+
+.botao_descricao_inicio:hover {
+    background-color: #002dab;
+}
+
+.caixa_produtos_ver_mais {
+    display: flex;
+    width: 320.4px;
+    height: 310.4px;
+    background: #a0a0a0;
+    border-radius: 10px;
+    filter: blur(3px);
+    margin: 40px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.caixa_secoes_inicio {
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto_inicio {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.caixa_icones_cabecalho {
+    background-color: #000000;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.caixa_produtos_detaque {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+    background: #E9E9E9;
+}
+
+.produtos_destaque {
+    border: 1px solid #a0a0a0;
+    display: grid;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 800px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.img-produtos_destaque {
+    display: flex;
+    width: 179.28px;
+    height: 197.4px;
+    background: #a0a0a0;
+    border-radius: 10px;
+}
+
+.descricao_produtos_destaque {
+    display: grid;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.rodape {
+    background-color: #000000;
+    height: 120px;
+    display: block;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.linha_rodape {
+    background-color: #444444;
+    height: 0.5px;
+    width: 100%;
+
+}
+
+.icones_redes_sociais {
+    width: 45px;
+    margin: 3px;
+    height: 45px;
+    border-radius: 4px;
+    font-size: 35px;
+    border: 1px solid #aeaeae;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+.icones_redes_sociais:hover {
+    background-color: #333;
+}
+
+.rodape .centro {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.rodape .direita {
+    text-align: right;
+    color: white;
+    font-size: 25px;
+}
+
+.parte_cima_rodape {
+    display: block;
+    justify-content: space-between;
+}
+
+
+.icones_direitos_reservados {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+
+.escrita_rodape {
+    color: #fff;
+    font-family: 'Courier New',
+        Courier,
+        monospace;
+    font-size: 15px;
+    margin-left: 1.37%;
+}
+
+
+.nome_rodape {
+    height: 40px;
+    margin-left: 20px;
+    font-size: 22px;
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+.nome_secoes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nome_caixa_secoes {
+    background-color: #000;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+.container_projetos {
+
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+}
+
+.miniaturas {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    justify-content: center;
+
+}
+
+.miniaturas img {
+    padding: 20px;
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    margin-right: 30px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+.miniaturas img:last-child {
+    margin-right: 0;
+}
+
+.miniaturas img:hover {
+    transform: scale(1.1);
+}
+
+.detalhes {
+    display: flex;
+    width: 800px;
+    height: 600px;
+    margin-left: 20px;
+    /* Espaçamento entre as miniaturas e os detalhes */
+}
+
+.imagem-grande img {
+    width: 100%;
+    /* Tamanho da imagem grande */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.descricao-projeto {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+}
