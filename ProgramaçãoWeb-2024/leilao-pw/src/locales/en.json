@@ -1,0 +1,40 @@
+{
+    "welcome": "Welcome",
+    "password":"Password",
+    "email":"E-mail",
+    
+    "button": {
+        "login": "Login",
+        "save": "Save",
+        "remove": "Remove",
+        "exit": "Exit"
+    },
+
+    "home": "HOME",
+    "auction": "AUCTION SCHEDULE",
+    "online-auction": "ONLINE AUCTION",
+    "results": "RESULTS",
+    "profile": "PROFILE",
+    "contact": "CONTACT",
+
+
+
+    "rights": "All rights reserved.",
+    "phone": "Phone",
+    "address": "Address",
+    "contact-footer": "Contact",
+
+
+
+    "results-last": "Latest Auction Results",
+    "auctioned": "Bid",
+    "latest-items-purchased": "Latest Items Purchased",
+    "last-registered-users": "Last Registered Users",
+    "total-sales-made": "Total Sales Made",
+    "active-auctions": "Active Auctions",
+    "by": "by",
+
+
+    "recover-password": "Recover Password",
+    "register": "Register"
+}

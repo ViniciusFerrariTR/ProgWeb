@@ -1,6 +1,6 @@
 .header {
     background-color: #333;
-    padding: 20px;
+    padding: 15px 15px 0px 15px;
     text-align: center;
     border-bottom: 2px solid #757575;
 }
@@ -12,11 +12,43 @@
 }
 
 .header-logo img {
-    height: 150px;
+    height: 100px;
 }
 
 .header-logo h1 {
     color: #333;
     font-size: 2rem;
     margin-left: 15px;
+}
+
+.logout{
+    align-items: end;
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu-bar {
+    background-color: #333 !important;
+    border: none;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.25rem;
+    
+}
+
+
+
+.menu-bar .p-menubar-root-list>.p-menuitem>.p-menuitem-link {
+    color: white;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.menu-bar .p-menubar-root-list>.p-menuitem>.p-menuitem-link:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu-bar .p-menuitem-link .p-menuitem-icon {
+    color: white;
 }

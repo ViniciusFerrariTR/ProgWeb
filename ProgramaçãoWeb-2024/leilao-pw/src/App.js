@@ -11,6 +11,7 @@ import Cadastro from './pages/cadastro/Cadastro';
 import RecSenha from './pages/RecSenha/RecSenha';
 import AltSenha from './pages/altsenha/AltSenha';
 import EditPerfil from './pages/editperfil/EditPerfil';
+import Dashboard from './pages/dashboard/Dashboard';
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
             element={<SimpleLayout><AltSenha /></SimpleLayout>} />
           <Route path='/editperfil'
             element={<SimpleLayout><EditPerfil /></SimpleLayout>} />
+          <Route path='/resultados'
+            element={<DefaultLayout><Dashboard /></DefaultLayout>} />
         </Routes>
       </BrowserRouter>
       {/* <Footer/> */}
