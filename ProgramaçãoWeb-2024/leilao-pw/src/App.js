@@ -2,8 +2,6 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
 import Login from './pages/login/Login';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
 import DefaultLayout from './components/DefaultLayout';
 import SimpleLayout from './components/SimpleLayout';
 import PrivateRouter from './components/PrivateRouter';
@@ -11,7 +9,7 @@ import Cadastro from './pages/cadastro/Cadastro';
 import RecSenha from './pages/RecSenha/RecSenha';
 import AltSenha from './pages/altsenha/AltSenha';
 import EditPerfil from './pages/editperfil/EditPerfil';
-import Dashboard from './pages/dashboard/Dashboard';
+import Dashboard from './components/dashboard/Dashboard';
 
 
 function App() {

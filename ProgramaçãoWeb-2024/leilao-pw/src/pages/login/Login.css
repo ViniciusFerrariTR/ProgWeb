@@ -1,0 +1,65 @@
+
+.login-background {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+
+}
+.login-card {
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 8px;
+    border-color: 1px solid #333;
+}
+
+
+.login-card {
+    background-color: #FFF;
+    color: #333;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p-button-secondary {
+    background-color: #757575 !important;
+    border: none !important;
+    
+}
+
+.p-button-outlined.p-button-secondary {
+    border-color: #000000 !important;
+    color: #757575 !important;
+}
+
+.p-button.p-button-outlined {
+    background-color: transparent;
+    color: #333 !important;
+    border: 1px solid #333;
+    
+}
+
+
+
+.login-container {
+    position: relative;
+    width: 100%;
+
+}
+.idioma-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+
+
+
+
+.p-icon-field{
+    width: 100%;
+}
